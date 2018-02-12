@@ -12,7 +12,7 @@ export class MainContent extends Component {
     }
 
     componentDidMount() {
-        var url = 'https://api.coinmarketcap.com/v1/ticker/?limit=5';
+        var url = 'https://api.coinmarketcap.com/v1/ticker/?limit=10';
         axios.get(url).then(response => {
             const cryptos = response.data;
             this.setState({
