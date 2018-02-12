@@ -11,7 +11,6 @@ export default class App extends Component {
         <Header/>
         <Navigation/>
         <MainContent/>
-          <div className="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="EUR" ></div>
       </div>
     );
   }
